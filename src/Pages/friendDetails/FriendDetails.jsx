@@ -3,7 +3,7 @@ import React from 'react';
 const FriendDetails = () => {
     return (
         <div>
-            <h2>ekane detauils</h2>
+            <h2>Friend details</h2>
         </div>
     );
 };
