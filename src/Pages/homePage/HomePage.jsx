@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from '../../components/Banner/Banner';
+import SummaryCard from '../../ui/summaryCard/SummaryCard';
 
 const HomePage = () => {
     return (
         <div>
-            <h2 className='text-red-400'>Home page ekhane</h2>
+            <Banner/>
+            <SummaryCard />
         </div>
     );
 };
