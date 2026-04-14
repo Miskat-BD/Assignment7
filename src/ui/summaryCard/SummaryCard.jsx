@@ -3,7 +3,7 @@ import useFriendData from '../../hooks/useFriendsData/useFriendData';
 
 const SummaryCard = () => {
     const {friends} = useFriendData();
-    console.log(friends, 'banner');
+    // console.log(friends, 'banner');
     return (
         <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center'>
             <div className="border border-gray-200 rounded-2xl px-6 py-12">
