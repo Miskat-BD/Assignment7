@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Arafat Rahman",
-    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "picture": "https://i.ibb.co.com/Sw2gx4dL/Ellipse-1.png",
     "email": "arafat.rahman@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Tanvir Hasan",
-    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "picture": "https://i.ibb.co.com/tpM6kxhr/Ellipse-1-1.png",
     "email": "tanvir.hasan@gmail.com",
     "days_since_contact": 6,
     "status": "on-track",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Mahmudul Karim",
-    "picture": "https://randomuser.me/api/portraits/men/60.jpg",
+    "picture": "https://i.ibb.co.com/k6Sk8N7M/Ellipse-1-3.png",
     "email": "mahmudul.karim@gmail.com",
     "days_since_contact": 13,
     "status": "almost due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Rakib Hossain",
-    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "picture": "https://i.ibb.co.com/xq159nTt/Ellipse-1-4.png",
     "email": "rakib.hossain@gmail.com",
     "days_since_contact": 17,
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Sabbir Ahmed",
-    "picture": "https://randomuser.me/api/portraits/men/28.jpg",
+    "picture": "https://i.ibb.co.com/yFYJZJP1/Ellipse-1-5.png",
     "email": "sabbir.ahmed@gmail.com",
     "days_since_contact": 9,
     "status": "on-track",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Imran Chowdhury",
-    "picture": "https://randomuser.me/api/portraits/men/36.jpg",
+    "picture": "https://i.ibb.co.com/21pbm3rW/Ellipse-1-6.png",
     "email": "imran.chowdhury@gmail.com",
     "days_since_contact": 15,
     "status": "overdue",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Nusrat Jahan",
-    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "picture": "https://i.ibb.co.com/zTZ0LbSk/Ellipse-1-7.png",
     "email": "nusrat.jahan@gmail.com",
     "days_since_contact": 11,
     "status": "almost due",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Farzana Akter",
-    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "picture": "https://i.ibb.co.com/FqYTW4W5/Ellipse-1-8.png",
     "email": "farzana.akter@gmail.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Sadia Islam",
-    "picture": "https://randomuser.me/api/portraits/women/35.jpg",
+    "picture": "https://i.ibb.co.com/twbjQYKG/Ellipse-1-2.png",
     "email": "sadia.islam@gmail.com",
     "days_since_contact": 4,
     "status": "on-track",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Tania Sultana",
-    "picture": "https://randomuser.me/api/portraits/women/50.jpg",
+    "picture": "https://i.ibb.co.com/DPgTydd3/Ellipse-1-9.png",
     "email": "tania.sultana@gmail.com",
     "days_since_contact": 7,
     "status": "on-track",

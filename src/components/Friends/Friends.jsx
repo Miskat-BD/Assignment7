@@ -1,0 +1,22 @@
+import React from 'react';
+import useFriendData from '../../hooks/useFriendsData/useFriendData';
+import { BounceLoader } from 'react-spinners';
+import FriendsCard from '../../ui/friendsCard/FriendsCard';
+
+const Friends = () => {
+    const {friends, loading} = useFriendData();
+    // console.log(friends, 'friends');
+    // console.log(loading, 'loading');
+    return (
+        <div className='container mx-auto mt-14'>
+            <h1 className='text-2xl font-semibold text-[#1F2937]'>Your Friends</h1>
+            {
+                loading ? <div className="flex justify-between items-center">
+                    <BounceLoader />
+                </div> : friends.map(friend => <FriendsCard key={friend.id} friend={friend}></FriendsCard>)
+            }
+        </div>
+    );
+};
+
+export default Friends;
