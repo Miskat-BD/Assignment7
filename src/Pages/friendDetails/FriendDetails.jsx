@@ -20,14 +20,14 @@ const FriendDetails = () => {
         return;
     }
     return (
-        <section className='my-20 grid gap-5 grid-cols-3 container mx-auto'>
+        <section className='my-20 grid gap-5 sm:grid-cols-3 container mx-auto'>
             {/* left */}
-            <div className="col-span-1">
+            <div className="sm:col-span-1">
                 <LeftCard expectedFriend={expectedFriend} />
             </div>
 
             {/* right */}
-            <div className="col-span-2">
+            <div className="grid grid-cols-1 sm:col-span-2">
                 <RightTop expectedFriend={expectedFriend} />
                 <RightMid expectedFriend={expectedFriend} />
                 <RightDown />

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FiArchive } from 'react-icons/fi';
+import { RiDeleteBinLine, RiNotificationSnoozeLine } from 'react-icons/ri';
 
 const LeftCard = ({ expectedFriend }) => {
     const { name, picture, email, status, tags,bio } = expectedFriend;
@@ -27,9 +29,9 @@ const LeftCard = ({ expectedFriend }) => {
             </div>
             {/* down */}
             <div className="grid grid-cols-1 space-y-4">
-                <button className='btn'>Snooze 2 weeks</button>
-                <button className='btn'>Archive</button>
-                <button className='btn'>Delete</button>
+                <button className='btn text-[#1F2937]'><RiNotificationSnoozeLine/> Snooze 2 weeks</button>
+                <button className='btn text-[#1F2937]'><FiArchive /> Archive</button>
+                <button className='btn text-red-500'><RiDeleteBinLine /> Delete</button>
             </div>
         </div>
     );
