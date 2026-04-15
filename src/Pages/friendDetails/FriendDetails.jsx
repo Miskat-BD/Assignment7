@@ -30,7 +30,7 @@ const FriendDetails = () => {
             <div className="grid grid-cols-1 sm:col-span-2">
                 <RightTop expectedFriend={expectedFriend} />
                 <RightMid expectedFriend={expectedFriend} />
-                <RightDown />
+                <RightDown expectedFriend={expectedFriend}/>
             </div>
 
         </section>

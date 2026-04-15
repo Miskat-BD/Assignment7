@@ -23,7 +23,7 @@ const LeftCard = ({ expectedFriend }) => {
                             tags.map((tag, i) => <div key={i} className="badge font-medium mr-2 bg-[#CBFADB] text-[#244D3F]">{tag.toUpperCase()}</div>)
                         }
                     </div>
-                    <p className='text-[#64748B]'><i>{bio}</i></p>
+                    <p className='text-[#64748B]'><i>"{bio}"</i></p>
                     <p className='text-[#64748B] text[14px]'>Preferred: {email}</p>
                 </div>
             </div>
