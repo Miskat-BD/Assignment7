@@ -1,5 +1,4 @@
 # Project Name: Keen Keeper
-<br>
 
 ### Description:
 Keen Keeper is a simple and user-friendly web application to manage and track your friends, communication timeline, and interactions like calls, texts, and video activities.
@@ -22,3 +21,4 @@ Keen Keeper is a simple and user-friendly web application to manage and track yo
     View and manage a list of friends with detailed information and interaction history.
 3. *** Interactives IU & Charts ***
     Beautiful UI with charts to visualize data like communication patterns.
+ 
