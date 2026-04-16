@@ -17,18 +17,29 @@ const TimeLine = () => {
         setFilterTimeline(newItem)
 
     }
+
+
     return (
         <div className="container mx-auto my-10">
             <div className='text-5xl font-bold text-[#1F2937] mb-7'>
                 <h2>Timeline</h2>
             </div>
-            <select defaultValue="All" className="select mb-7 ml-3">
-                
+
+            <br />
+            <select defaultValue="All" className="select mb-7 ml-3" onChange={(e) => handleFilter(e.target.value)}>
+                <option value="All">All</option>
+                <option value="Call">Call</option>
+                <option value="Text">Text</option>
+                <option value="Video">Video</option>
+            </select>
+
+            {/* <select defaultValue="All" className="select mb-7 ml-3">
+
                 <option onClick={() => handleFilter('All')}>All</option>
                 <option onClick={() => handleFilter('Call')}>Call</option>
                 <option onClick={() => handleFilter('Text')}>Text</option>
                 <option onClick={() => handleFilter('Video')}>Video</option>
-            </select>
+            </select> */}
             {
                 filterTimeline.length == 0 ? (
                     <EmptyTimeline text={'No Activity Yet'} />
