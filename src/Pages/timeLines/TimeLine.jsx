@@ -17,6 +17,11 @@ const TimeLine = () => {
         setFilterTimeline(newItem)
 
     }
+    const handleSearch = (value) =>{
+        const searchText = value.toLowerCase();
+        const filterSearch = timeline.filter(item => item.type.toLowerCase().includes(searchText) )
+        setFilterTimeline(filterSearch);
+    }
 
 
     return (
@@ -24,7 +29,7 @@ const TimeLine = () => {
             <div className='text-5xl font-bold text-[#1F2937] mb-7'>
                 <h2>Timeline</h2>
             </div>
-
+            <input type="text" placeholder="Search" className="input mb-7 ml-3" onChange={(e)=> handleSearch(e.target.value)} />
             <br />
             <select defaultValue="All" className="select mb-7 ml-3" onChange={(e) => handleFilter(e.target.value)}>
                 <option value="All">All</option>
