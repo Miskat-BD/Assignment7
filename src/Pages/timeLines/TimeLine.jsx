@@ -38,13 +38,6 @@ const TimeLine = () => {
                 <option value="Video">Video</option>
             </select>
 
-            {/* <select defaultValue="All" className="select mb-7 ml-3">
-
-                <option onClick={() => handleFilter('All')}>All</option>
-                <option onClick={() => handleFilter('Call')}>Call</option>
-                <option onClick={() => handleFilter('Text')}>Text</option>
-                <option onClick={() => handleFilter('Video')}>Video</option>
-            </select> */}
             {
                 filterTimeline.length == 0 ? (
                     <EmptyTimeline text={'No Activity Yet'} />
